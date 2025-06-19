@@ -19,7 +19,7 @@ Una app hecha con **Vue 3 + Vite** que muestra un **reloj analógico animado** j
 
 ## 🚀 Vista previa
 
-![preview](public/preview.jpeg) <!-- Puedes crear un screenshot del proyecto y guardarlo ahí -->
+![preview](/Front/public/preview.jpeg) <!-- Puedes crear un screenshot del proyecto y guardarlo ahí -->
 
 ---
 
