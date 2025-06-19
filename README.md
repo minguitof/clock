@@ -23,6 +23,9 @@ Una app hecha con **Vue 3 + Vite** que muestra un **reloj analógico animado** j
 
 ---
 
+## 📽️ Demo
+[![See demo on YouTube](https://img.youtube.com/vi/g9TqSqyy5-g/hqdefault.jpg)](https://youtu.be/g9TqSqyy5-g)
+
 ## 📦 Instalación
 
 ```bash
