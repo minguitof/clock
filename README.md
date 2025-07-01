@@ -1,61 +1,61 @@
 # 🕑 Analog Weather Clock
 
-Una app hecha con **Vue 3 + Vite** que muestra un **reloj analógico animado** junto con el **estado actual del clima**, y lo adorna con animaciones visuales según la condición meteorológica. 🌤️🌧️❄️
+An app built with **Vue 3 + Vite** that displays an **animated analog clock** along with the **current weather status**, enhanced with visual animations that reflect the weather conditions. 🌤️🌧️❄️
 
 ---
 
-## ✨ Características
+## ✨ Characteristics
 
-- ⏰ Reloj analógico en tiempo real (manecillas animadas).
-- 🌦️ Integración con [WeatherAPI](https://www.weatherapi.com/) para mostrar:
-  - Ciudad actual
-  - Temperatura (°C)
-  - Condición del clima
-- 🎨 Animaciones dinámicas: sol, lluvia, nubes...
-- 🌈 Fondo adaptable según el clima (con transiciones suaves).
-- 🛠️ Devtools opcionales para forzar el fondo manualmente en desarrollo.
+- ⏰ Real-time analog clock (animated hands).
+- 🌦️ Integration with [WeatherAPI](https://www.weatherapi.com/) to display:
+  - Current city
+  - Temperature (°C)
+  - Weather condition
+- 🎨 Dynamic animations: sun, rain, clouds...
+- 🌈 Weather-based adaptive background (with smooth transitions).
+- 🛠️ Optional devtools to manually force the background in development mode.
 
 ---
 
-## 🚀 Vista previa
+## 🚀 Preview
 
 ![preview](/Front/public/preview.jpeg) <!-- Puedes crear un screenshot del proyecto y guardarlo ahí -->
 
 ---
 
-## 📽️ Demo
+## 📽️ Demo on YouTube
 [![See demo on YouTube](https://img.youtube.com/vi/g9TqSqyy5-g/hqdefault.jpg)](https://youtu.be/g9TqSqyy5-g)
 
-## 📦 Instalación
+## 📦 Facility
 
 ```bash
-# Clona el proyecto
+# Clone the project
 git clone https://github.com/minguitof/clock.git
 cd Front
 ```
 
-## Instala dependencias
+## Install dependencies
 npm install
 
-## 🔐 Configuración de API Key
+## 🔐 API Key Configuration
 
-- Regístrate en weatherapi.com.
-- Obtén tu API Key gratuita.
-- Crea un archivo .env en la raíz del proyecto:
+- Sign up at weatherapi.com.
+- Get your free API Key.
+- Create a .env file in the project root:
 
 ```bash
 VITE_API_KEY=TU_API_KEY_AQUÍ
 ```
 
-## 🧪 Modo desarrollo
+## 🧪 Development mode
 
 ```bash
 npm run dev
 ```
 
-Esto abre la app en http://localhost:5173.
+This opens the app at http://localhost:5173.
 
-En modo desarrollo también puedes probar otros fondos con el siguiente comando en consola:
+In development mode, you can also test other backgrounds with the following console command:
 
 ```bash
 weatherDebug.setBackground('rainy-bg') // Cambia a 'sunny-bg', 'cloudy-bg', etc.
@@ -79,31 +79,31 @@ src/
 └── style.css
 ```
 
-## 🔧 Tecnologías utilizadas
+## 🔧 Technologies used
 
 - Vue 3 + Vite
-- CSS puro para animaciones
-- WeatherAPI para datos climáticos
-- Composition API y ref, computed, onMounted de Vue
+- Pure CSS for animations
+- Weather API for weather data
+- Vue's Composition API and ref, computed, and onMounted
 
-## 📸 Créditos / Inspiración
+## 📸 Credits / Inspiration
 
-- Diseño del reloj basado en ideas minimalistas con CSS
-- Clima dinámico inspirado por apps como Weather Widget y iOS Weather App
+- Clock design based on minimalist ideas using CSS
+- Dynamic weather inspired by apps like Weather Widget and iOS Weather App
 
-## ✅ Mejoras futuras (ideas)
+## ✅ Future improvements (ideas)
 
-- Agregar ubicación geográfica automática (con navigator.geolocation)
-- Animaciones para nieve, tormenta o niebla
-- Soporte multilingüe
-- Modo oscuro/light personalizado
+- Add automatic geolocation (with navigator.geolocation)
+- Animations for snow, storms, or fog
+- Multilingual support
+- Custom dark/light mode
 
-## 📄 Licencia
+## 📄 License
 
 - MIT
 
 ---
 
-Hecho con 💙 desde Medellín
+Crafted with 💙 from Medellín
 
 ---
